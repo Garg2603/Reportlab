@@ -8,6 +8,9 @@ Requirements
 
 Python 3.x (https://www.python.org/downloads/)
 ReportLab library (install using pip install reportlab)
+
+
+
 Explanation of Functions:
 
 my_can(c): Adds decorative elements (logo, address, etc.) to the first page of the PDF.
