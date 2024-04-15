@@ -10,15 +10,24 @@ Python 3.x (https://www.python.org/downloads/)
 ReportLab library (install using pip install reportlab)
 
 
-
 Explanation of Functions:
 
 my_can(c): Adds decorative elements (logo, address, etc.) to the first page of the PDF.
+
+
 my_can2(c): Adds decorative elements (copyright information) to subsequent pages of the PDF.
+
+
 first_page_elements(input_list): Splits the device data list to extract entries for the first page's table.
 other_elements(input_list): Splits the remaining device data for subsequent pages' tables.
+
+
 split_list(input_list, chunk_size=31): Chunks the device data list into manageable sizes for table creation.
+
+
 generate_pdf(my_data, my_dict, output_path): The core function that generates the PDF report, performing data processing, table creation, and PDF generation based on the provided data and event information.
+
+
 How to Use the Script:
 
 Install Requirements: Ensure you have Python 3 and the ReportLab library installed (pip install reportlab).
